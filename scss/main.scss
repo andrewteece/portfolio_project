@@ -43,8 +43,8 @@ img {
 // LOGO
 
 .logo {
-  width: 4.375rem;
-  height: 4.375rem;
+  width: 6rem;
+  height: 4rem;
   color: $light-color;
   text-transform: uppercase;
 }
@@ -89,9 +89,10 @@ img {
   // Header Home
 
   &-home {
-    background: $bg-image no-repeat center right / cover;
+    background: $bg-image2 no-repeat center right / cover;
     height: 100vh;
     color: $light-color;
+    opacity: 0.8;
 
     // Header Content
 
@@ -100,7 +101,7 @@ img {
       padding-top: 20%;
 
       h1 {
-        font-size: 4rem;
+        font-size: 2rem;
         line-height: 1.2;
       }
     }

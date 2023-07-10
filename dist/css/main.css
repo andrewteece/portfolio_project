@@ -33,7 +33,7 @@ input[class^="btn__"]:focus {
   background-color: #ffbb00; }
 
 .content__lead {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem; }
 
 .text__center {
@@ -70,8 +70,8 @@ img {
   width: 100%; }
 
 .logo {
-  width: 4.375rem;
-  height: 4.375rem;
+  width: 6rem;
+  height: 4rem;
   color: whitesmoke;
   text-transform: uppercase; }
 
@@ -96,12 +96,13 @@ img {
       border-color: #ffbb00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/sedona.jpg") no-repeat center right/cover;
   height: 100vh;
-  color: whitesmoke; }
+  color: whitesmoke;
+  opacity: 0.8; }
   #header-home .header__content {
     text-align: center;
     padding-top: 20%; }
     #header-home .header__content h1 {
-      font-size: 4rem;
+      font-size: 2rem;
       line-height: 1.2; }
