@@ -51,12 +51,58 @@ img {
 
 // MAIN NAV
 
+.main__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: $light-color;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+
+    &:hover,
+    &:focus {
+      border-color: $medium-color;
+    }
+
+    &.current {
+      border-color: $main-color;
+    }
+  }
+}
+
 // HEADER
 
 #header {
+  // Header Home
+
   &-home {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
     color: $light-color;
+
+    // Header Content
+
+    .header__content {
+      text-align: center;
+      padding-top: 20%;
+
+      h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+      }
+    }
   }
 }

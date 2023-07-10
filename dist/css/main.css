@@ -1,3 +1,44 @@
+.wrapper {
+  max-width: 80rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.btn__main, .btn__light, .btn__dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; }
+
+.btn__main {
+  color: #333333;
+  background-color: #ffbb00; }
+
+.btn__light {
+  color: #333333;
+  background-color: whitesmoke; }
+
+.btn__dark {
+  color: whitesmoke;
+  background-color: #333333; }
+
+a[class^="btn__"]:hover,
+a[class^="btn__"]:focus,
+button[class^="btn__"]:hover,
+button[class^="btn__"]:focus,
+input[class^="btn__"]:hover,
+input[class^="btn__"]:focus {
+  background-color: #ffbb00; }
+
+.content__lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem; }
+
+.text__center {
+  text-align: center; }
+
 *,
 ::before,
 ::after {
@@ -34,7 +75,33 @@ img {
   color: whitesmoke;
   text-transform: uppercase; }
 
+.main__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+  .main__nav ul {
+    display: flex; }
+  .main__nav li {
+    padding: 1rem 1.5rem; }
+  .main__nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s; }
+    .main__nav a:hover, .main__nav a:focus {
+      border-color: #cccccc; }
+    .main__nav a.current {
+      border-color: #ffbb00; }
+
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: whitesmoke; }
+  #header-home .header__content {
+    text-align: center;
+    padding-top: 20%; }
+    #header-home .header__content h1 {
+      font-size: 4rem;
+      line-height: 1.2; }

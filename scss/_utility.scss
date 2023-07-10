@@ -4,3 +4,50 @@
   margin: 0 auto;
   overflow: hidden;
 }
+
+// BUTTONS
+
+%btn-shared {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn {
+  &__main {
+    @extend %btn-shared;
+    color: $dark-color;
+    background-color: $main-color;
+  }
+  &__light {
+    @extend %btn-shared;
+    color: $dark-color;
+    background-color: $light-color;
+  }
+  &__dark {
+    @extend %btn-shared;
+    color: $light-color;
+    background-color: $dark-color;
+  }
+}
+
+a[class^="btn__"]:hover,
+a[class^="btn__"]:focus,
+button[class^="btn__"]:hover,
+button[class^="btn__"]:focus,
+input[class^="btn__"]:hover,
+input[class^="btn__"]:focus {
+  background-color: $main-color;
+}
+
+.content__lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text__center {
+  text-align: center;
+}
