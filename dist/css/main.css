@@ -27,3 +27,14 @@ h5 {
 
 img {
   width: 100%; }
+
+.logo {
+  width: 4.375rem;
+  height: 4.375rem;
+  color: whitesmoke;
+  text-transform: uppercase; }
+
+#header-home {
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  height: 100vh;
+  color: whitesmoke; }
