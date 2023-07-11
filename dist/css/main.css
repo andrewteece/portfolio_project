@@ -39,6 +39,30 @@ input[class^="btn__"]:focus {
 .text__center {
   text-align: center; }
 
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
 *,
 ::before,
 ::after {
@@ -106,3 +130,29 @@ img {
     #header-home .header__content h1 {
       font-size: 2rem;
       line-height: 1.2; }
+
+.section__a .specials {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem; }
+  .section__a .specials .fas {
+    color: #ffbb00;
+    padding-bottom: 0.5rem; }
+
+.section__b .stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  .section__b .stats li {
+    line-height: 2; }
+    .section__b .stats li.stats__title {
+      font-size: 1.5rem; }
+    .section__b .stats li.stats__number {
+      font-size: 2rem;
+      font-weight: bold; }
+  .section__b .stats div {
+    padding: 3rem; }
+    .section__b .stats div:nth-child(odd) {
+      background: whitesmoke; }
+    .section__b .stats div:nth-child(even) {
+      background: #cccccc; }
