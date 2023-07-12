@@ -206,3 +206,21 @@ img {
       line-height: 120px; }
       .section__c .process--icon:hover .process--step, .section__c .process--icon:focus .process--step {
         background: #333333; }
+
+.main__footer {
+  background: #333333;
+  color: whitesmoke;
+  height: 5rem; }
+  .main__footer .footer__content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    .main__footer .footer__content .social__icons .fab {
+      margin-right: 1rem;
+      padding: 0.5rem;
+      cursor: pointer; }
+      .main__footer .footer__content .social__icons .fab:hover, .main__footer .footer__content .social__icons .fab:focus {
+        background: #ffbb00;
+        border-radius: 50%;
+        transition: 0.5s all; }

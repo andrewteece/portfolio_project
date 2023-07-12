@@ -201,3 +201,31 @@ img {
     }
   }
 }
+
+// FOOTER
+
+.main__footer {
+  background: $dark-color;
+  color: $light-color;
+  height: 5rem;
+
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+    .social__icons .fab {
+      margin-right: 1rem;
+      padding: 0.5rem;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        background: $main-color;
+        border-radius: 50%;
+        transition: 0.5s all;
+      }
+    }
+  }
+}
