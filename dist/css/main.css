@@ -63,6 +63,21 @@ input[class^="btn__"]:focus {
 .my-4 {
   margin: 4rem 0; }
 
+.section__title {
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+.section__bottom--line {
+  height: 0.1875rem;
+  width: 7rem;
+  background: #ffbb00;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
 *,
 ::before,
 ::after {
@@ -133,7 +148,7 @@ img {
 
 .section__a .specials {
   display: grid;
-  grid-gap: 1rem;
+  gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 3rem; }
   .section__a .specials .fas {
@@ -156,3 +171,32 @@ img {
       background: whitesmoke; }
     .section__b .stats div:nth-child(even) {
       background: #cccccc; }
+
+.section__c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center; }
+  .section__c .process--step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    background: #ffbb00;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    padding: 1rem;
+    transition: all 1s; }
+  .section__c .process--icon {
+    border-radius: 50%;
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    transition: all 1s; }

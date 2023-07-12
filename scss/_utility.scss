@@ -85,3 +85,20 @@ input[class^="btn__"]:focus {
     margin: 4rem 0;
   }
 }
+
+.section__title {
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__bottom--line {
+  height: 0.1875rem;
+  width: 7rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
