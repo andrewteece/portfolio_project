@@ -184,8 +184,6 @@ img {
     font-size: 1rem;
     background: #ffbb00;
     border-radius: 50%;
-    height: 2px;
-    width: 2px;
     line-height: 4px;
     padding: 1rem;
     transition: all 1s; }
@@ -223,4 +221,4 @@ img {
       .main__footer .footer__content .social__icons .fab:hover, .main__footer .footer__content .social__icons .fab:focus {
         background: #ffbb00;
         border-radius: 50%;
-        transition: 0.5s all; }
+        transition: 0.8s all; }
