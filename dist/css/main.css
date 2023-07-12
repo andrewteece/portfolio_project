@@ -181,22 +181,28 @@ img {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background: #ffbb00;
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    line-height: 15px;
+    height: 2px;
+    width: 2px;
+    line-height: 4px;
     padding: 1rem;
     transition: all 1s; }
   .section__c .process--icon {
     border-radius: 50%;
     background-color: #333333;
     color: whitesmoke;
-    padding: 2rem;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
     position: relative;
     transition: all 1s; }
+    .section__c .process--icon:hover, .section__c .process--icon:focus {
+      background: #ffbb00;
+      width: 120px;
+      height: 120px;
+      line-height: 120px; }
+      .section__c .process--icon:hover .process--step, .section__c .process--icon:focus .process--step {
+        background: #333333; }
