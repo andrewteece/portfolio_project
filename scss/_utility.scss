@@ -104,3 +104,27 @@ input[class^="btn__"]:focus {
   display: block;
   margin: 0 auto 1rem auto;
 }
+
+// BACKGROUND COLORS
+
+.bg {
+  &__main {
+    background: $main-color;
+    color: set-text-color($main-color);
+  }
+
+  &__dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+  }
+
+  &__light {
+    background: $light-color;
+    color: set-text-color($light-color);
+  }
+
+  &__medium {
+    background: $medium-color;
+    color: set-text-color($medium-color);
+  }
+}

@@ -208,6 +208,25 @@ img {
   }
 }
 
+// ABOUT
+
+.about__info {
+  display: grid;
+  grid-template-areas:
+    "bioimage bio bio"
+    "aw1 aw2 aw3";
+  gap: 1.5rem;
+}
+
+// Grid Areas
+
+.bio__image {
+  grid-area: bioimage;
+}
+
+.bio {
+}
+
 // FOOTER
 
 .main__footer {
