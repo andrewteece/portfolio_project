@@ -146,6 +146,11 @@ img {
       font-size: 2rem;
       line-height: 1.2; }
 
+#header-about {
+  background: url("../img/sedona.jpg") no-repeat 20% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #ffbb00; }
+
 .section__a .specials {
   display: grid;
   gap: 1rem;
